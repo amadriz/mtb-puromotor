@@ -4,6 +4,7 @@ import { Route, Routes } from "react-router-dom";
 import { Home } from "../pages/Home";
 import { BrowserRouter } from 'react-router-dom';
 import { Footer } from "../components/Footer";
+import { MainSlider } from "../components/MainSlider";
 
 
 
@@ -17,6 +18,7 @@ export const Layout = () => {
     <>
       <BrowserRouter>
         <Navbar />
+        <MainSlider />
           <Routes>
             <Route path='/' element={<Home />} />
           </Routes>
