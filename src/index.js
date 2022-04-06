@@ -1,13 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import { Layout } from "./js/Layout";
 import reportWebVitals from './reportWebVitals';
+// Importar SASS se debe installar npm i sass
+import './scss/theme.scss'; 
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Layout />,
   document.getElementById('root')
 );
 
