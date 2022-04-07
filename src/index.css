@@ -12,3 +12,7 @@ code {
 .mainSliderBgImg {
     background-image: url('../src/assets/videos/officeloop-cover.jpg');
 }
+
+.mt-100 {
+    margin-top: 98px;
+}

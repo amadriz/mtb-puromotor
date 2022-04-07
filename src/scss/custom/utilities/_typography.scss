@@ -194,7 +194,7 @@ a {
 }
 
 .text-gradient-light {
-    background: radial-gradient(circle at 70%, $white 5%, tint-color($primary, 50%) 20%);
+    background: radial-gradient(circle at 70%, $black 5%, tint-color($red, 50%) 20%);
     background-size: 400% 400%;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
